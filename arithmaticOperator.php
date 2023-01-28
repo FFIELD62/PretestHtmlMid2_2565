@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title> การคำนวณหาพื้นที่ </title>
+    <title> ArithmaticOperator </title>
 </head>
 <style>
     body {

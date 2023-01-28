@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title> การคำนวณหาพื้นที่ </title>
+    <title> การคำนวณหาเลขมากสุดและน้อยสุด </title>
 </head>
 <style>
     body {
@@ -63,7 +63,7 @@
                 echo $num1[$i].", ";
             }
             echo "<br>";
-            
+
             echo "Max : ".max($num)."<br>";
             echo "Min : ".min($num)."<br>";
             echo "Sum : ".$sum."<br>";           
