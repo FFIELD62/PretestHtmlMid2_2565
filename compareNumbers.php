@@ -4,10 +4,8 @@
 </head>
 <style>
     body {
-        background-image: url(BG.jpg);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: 100% 100%;
+        background: red;
+ 
     }
 </style>
 
@@ -21,7 +19,6 @@
     P3<input type="text" name="num[]" maxlength="10" value=""/><br /> 
     P4<input type="text" name="num[]" maxlength="10" value=""/><br /> 
     P5<input type="text" name="num[]" maxlength="10" value=""/><br />  <br />
-
 
     <br />
     <input type="SUBMIT" name="SUBMIT" value="SUBMIT" /> 
@@ -42,10 +39,6 @@
 
             rsort($num);
             sort($num1);
-
-
-
-
         ?>
 
         <h1>Result</h1>
@@ -63,14 +56,11 @@
                 echo $num1[$i].", ";
             }
             echo "<br>";
-
             echo "Max : ".max($num)."<br>";
             echo "Min : ".min($num)."<br>";
             echo "Sum : ".$sum."<br>";           
         }
             ?>
-
-
 </boby>
 
 </html>
